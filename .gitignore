@@ -426,3 +426,21 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# Application secrets, runtime files, and generated data
+.env
+.env.*
+!.env.example
+*.p12
+*.pem
+*.key
+**/vendor/
+**/config.zip
+**/error_log
+**/log.txt
+**/test_db.php
+**/soluciones_hotelero (1) (1).sql
+**/files/CERT/
+**/files/DATA/
+**/files/FRM/
+**/files/RPTA/
